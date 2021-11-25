@@ -1,0 +1,22 @@
+{
+  "name": "preloader",
+  "version": "1.0.0",
+  "description": "git practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "testit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/38hossainafzal/gittest.git"
+  },
+  "keywords": [
+    "preloder"
+  ],
+  "author": "Md. Afzal Hossain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/38hossainafzal/gittest/issues"
+  },
+  "homepage": "https://github.com/38hossainafzal/gittest#readme"
+}
