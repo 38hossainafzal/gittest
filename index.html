@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Preloader</title>
+
+	<style>
+		.loading {
+  background: #1f2235;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999; }
+
+.loader {
+  position: relative; }
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: #ccc;
+  position: absolute; }
+
+.dot_1 {
+  -webkit-animation: animateDot1 1.5s linear infinite;
+  animation: animateDot1 1.5s linear infinite;
+  left: 12px;
+  background: #4bffa5; }
+
+.dot_2 {
+  -webkit-animation: animateDot2 1.5s linear infinite;
+  animation: animateDot2 1.5s linear infinite;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  left: 24px; }
+
+.dot_3 {
+  -webkit-animation: animateDot3 1.5s linear infinite;
+  animation: animateDot3 1.5s linear infinite;
+  left: 12px; }
+
+.dot_4 {
+  -webkit-animation: animateDot4 1.5s linear infinite;
+  animation: animateDot4 1.5s linear infinite;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  left: 24px; }
+
+@-webkit-keyframes animateDot1 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(-12px);
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    -webkit-transform: rotate(180deg) translateX(-12px);
+    transform: rotate(180deg) translateX(-12px); }
+  75% {
+    -webkit-transform: rotate(180deg) translateX(-12px);
+    transform: rotate(180deg) translateX(-12px); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(-12px);
+    transform: rotate(360deg) translateX(-12px); } }
+
+@keyframes animateDot1 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(-12px);
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    -webkit-transform: rotate(180deg) translateX(-12px);
+    transform: rotate(180deg) translateX(-12px); }
+  75% {
+    -webkit-transform: rotate(180deg) translateX(-12px);
+    transform: rotate(180deg) translateX(-12px); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(-12px);
+    transform: rotate(360deg) translateX(-12px); } }
+
+@-webkit-keyframes animateDot2 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(-12px);
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    -webkit-transform: rotate(-180deg) translateX(-12px);
+    transform: rotate(-180deg) translateX(-12px); }
+  75% {
+    -webkit-transform: rotate(-180deg) translateX(-12px);
+    transform: rotate(-180deg) translateX(-12px); }
+  100% {
+    -webkit-transform: rotate(-360deg) translateX(-12px);
+    transform: rotate(-360deg) translateX(-12px); } }
+
+@keyframes animateDot2 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(-12px);
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    -webkit-transform: rotate(-180deg) translateX(-12px);
+    transform: rotate(-180deg) translateX(-12px); }
+  75% {
+    -webkit-transform: rotate(-180deg) translateX(-12px);
+    transform: rotate(-180deg) translateX(-12px); }
+  100% {
+    -webkit-transform: rotate(-360deg) translateX(-12px);
+    transform: rotate(-360deg) translateX(-12px); } }
+
+@-webkit-keyframes animateDot3 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(12px);
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    -webkit-transform: rotate(180deg) translateX(12px);
+    transform: rotate(180deg) translateX(12px); }
+  75% {
+    -webkit-transform: rotate(180deg) translateX(12px);
+    transform: rotate(180deg) translateX(12px); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(12px);
+    transform: rotate(360deg) translateX(12px); } }
+
+@keyframes animateDot3 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(12px);
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    -webkit-transform: rotate(180deg) translateX(12px);
+    transform: rotate(180deg) translateX(12px); }
+  75% {
+    -webkit-transform: rotate(180deg) translateX(12px);
+    transform: rotate(180deg) translateX(12px); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(12px);
+    transform: rotate(360deg) translateX(12px); } }
+
+@-webkit-keyframes animateDot4 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(12px);
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    -webkit-transform: rotate(-180deg) translateX(12px);
+    transform: rotate(-180deg) translateX(12px); }
+  75% {
+    -webkit-transform: rotate(-180deg) translateX(12px);
+    transform: rotate(-180deg) translateX(12px); }
+  100% {
+    -webkit-transform: rotate(-360deg) translateX(12px);
+    transform: rotate(-360deg) translateX(12px); } }
+
+@keyframes animateDot4 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(12px);
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    -webkit-transform: rotate(-180deg) translateX(12px);
+    transform: rotate(-180deg) translateX(12px); }
+  75% {
+    -webkit-transform: rotate(-180deg) translateX(12px);
+    transform: rotate(-180deg) translateX(12px); }
+  100% {
+    -webkit-transform: rotate(-360deg) translateX(12px);
+    transform: rotate(-360deg) translateX(12px); } }
+			
+		}
+	</style>
+
+	
+
+</head>
+
+<body onLoad= load();>
+	<div id="mypreloader">
+		<div class="loading">
+	        <div class="loader">
+	            <span class="dot dot_1"></span>
+	            <span class="dot dot_2"></span>
+	            <span class="dot dot_3"></span>
+	            <span class="dot dot_4"></span>
+	        </div>
+	    </div>
+    </div>
+	<h1>Hi THis is afzal</h1>
+
+	<p>Teaching How to add Preloader to a static html website</p>
+
+	<script>
+		
+	var loadComplete = document.getElementById('mypreloader');
+
+	function load(){
+		loadComplete.style.display = "none";
+	}
+	</script>
+</body>
+</html>
